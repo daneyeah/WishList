@@ -1,0 +1,24 @@
+{
+  "public": {
+    "clean": "./public/",
+    "primary": "public/",
+    "js": "public/assets/js/",
+    "js_lib": "public/assets/js/lib/",
+    "css": "public/assets/css/"
+
+  },
+  "dist": {
+    "css": "sources/assets/css",
+    "css_min": "sources/assets/css/min"
+  },
+  "src": {
+    "json": "sources/assets/js/*.json",
+    "js": "sources/assets/js/*.js",
+    "js_lib": "sources/assets/js/lib/*.js",
+    "less": "sources/assets/less/**/*.less",
+    "less_i": "!sources/assets/less/**/__*.less",
+    "css": "sources/assets/css/*.css",
+    "css_min": "sources/assets/css/min/*.css",
+    "pug": "sources/**/*.pug"
+  }
+}
